@@ -1,0 +1,34 @@
+h1{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+h1{
+    font-family: georgia;
+}
+h3{
+    font-family: georgia;
+}
+h5{
+    font-family: georgia;
+}
+p{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    color: azure;
+    background-color: purple;
+}
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+#yes:checked + label{
+    color:darkgreen;
+}
+

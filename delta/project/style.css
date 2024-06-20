@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color:black;
+    text-decoration: underline;
+}
+button{
+    color:white;
+    background-color: blue;
+    line-height:5px;
+}
+input{
+    line-height: 30px;
+    
+}
+select{
+    line-height: 30px;
+}

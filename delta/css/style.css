@@ -1,0 +1,35 @@
+
+h1{
+    color:rgb(255,0,0);
+    text-align:center;
+    text-decoration:underline;
+}
+p{
+    color:black;
+    font-weight: 400;
+}
+button{
+    color:white;
+    background-color:blue;
+}
+h3{
+    text-decoration:underline;
+    color:goldenrod;
+    background-color:black;
+}
+h2{
+    text-decoration:black underline;
+}
+h4{
+    text-align: center;
+    background-color: teal;
+    color:black;
+    font-family: fantasy;
+    font-size: 75%;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

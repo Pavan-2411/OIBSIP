@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="tempconv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="temperatureconverter">
+            <h2 class="title">Temperature Converter</h2>
+            <div class="result">
+                <span class="resultheading">Result (celsius)</span>
+                <h2 class="celsiusnumber" id="celsius"></h2>
+            </div> 
+            <div class="degree">
+                <div class="degreefield">
+                    <label for="degree">Degrees</label>
+                    <input type="number" name="degree" id="degree">
+                </div>
+                <div class="tempfield">
+                    <label for="temptype">Type</label>
+                    <select name="temperatures" id="temptype" autocomplete="on">
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div> 
+            </div>
+            <button id="convert">Convert</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

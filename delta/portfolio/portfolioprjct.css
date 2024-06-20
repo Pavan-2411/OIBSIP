@@ -1,0 +1,458 @@
+h2{
+    display: inline;
+    color: #96351E;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+* {
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px grey;
+    transition: 0.5s;
+}
+a:hover {
+    color: brown;
+    font-size: 1.1rem;
+    transition-timing-function: ease;
+}
+body {
+    background-color: black;
+    
+}
+.footercontain {
+    color: #96351E;
+    font-size: 40px;
+}
+.About {
+    border: 1px whitesmoke solid;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.Education {
+    border: 1px whitesmoke solid;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Skills{
+    border: 1px whitesmoke solid;
+    height: 100vh;
+    width: 100%;
+}
+.Projects{
+    border: 1px whitesmoke solid;
+    height: 100vh;
+    width: 100%;
+}
+.text h2 {
+    color:white;
+}
+b {
+    color: indianred;
+}
+.text {
+    /* display: flex; */
+    width: 50%;
+    /* justify-content: center;
+    align-items: center; */
+    display: block;
+    text-align: center;
+}
+.image {
+   
+    height: 100vh;
+    width: 50%;
+    background: url(profile.png) no-repeat center center/ cover;
+    opacity: 0.8;
+}
+.about1 {
+    font-weight: 700;
+}
+.card1 {
+    height: 25vh;
+    width: 100%;
+    border: 2px solid white;
+    opacity: 0.7;
+    
+    border-radius: 7px;
+    
+    background-color: white;
+}
+.card2 {
+    height: 25vh;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: white;
+    opacity: 0.7;
+    
+}
+.card3 {
+    height: 25vh;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: white;
+    opacity: 0.7;
+}
+.mainbox {
+    display: flex;
+    flex-direction: row;
+    height:80%; 
+    width: 80%;
+   /* border: 1px solid white;*/
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.card1:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 10px white;
+    transition: 0.5s ease;
+}
+.card2:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 10px white;
+    transition: 0.5s ease;
+}
+.card3:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 10px white;
+    transition: 0.5s ease;
+}    
+.school {
+    color: black;
+    font-size: 25px;
+}
+.secondary {
+    color:#96351E;
+    font-size: 150%;
+}
+.edupara {
+    color: black;
+    padding-top: 20px;
+    font-size: 120%;
+    font-weight: 500;
+}
+.intermediate {
+    color: black;
+    font-size: 25px;
+}
+.btech {
+    color: black;
+    font-size: 25px;
+}
+.edupara2 {
+    color: black;
+    padding-top: 20px;
+    font-size: 120%;
+    font-weight: 500;
+}
+.edupara3 {
+    color:black;
+    padding-top: 20px;
+    font-size: 120%;
+    font-weight: 500;
+}
+.Education {
+    background-image: url(education.jpg);
+    opacity: 0.8;
+}
+.dot {
+    color: black;
+    font-size: 20px;
+}
+.MySkills{
+    text-align: center;
+    color: lightskyblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    margin: 5px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.Skills {
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22), 0 10px 10px rgba(0, 0, 0, 0.20);
+    background-color: rgba(92, 92, 92, 0.737);
+    opacity: 0.6;
+}
+.Skills li {
+    margin: 25px 0;
+    padding: 30px;
+}
+.bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25,.8.25,1);
+}
+.bar:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22), 0 10px 10px rgba(0, 0, 0, 0.20);
+}
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+.html {
+    width: 80%;
+    animation: html 3s;
+}
+.css {
+    width: 72%;
+    animation: css 3s;
+}
+.Javascript {
+    width: 62%;
+    animation: Javascript 3s;
+}
+.Bootstrap {
+    width: 75%;
+    animation: Bootstrap 3s;
+}
+.Sql {
+    width: 66%;
+    animation: Sql 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+@keyframes Javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 62%;
+    }
+}
+@keyframes Bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes Sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 66%;
+    }
+}
+.hlogo {
+        
+     font-size: 25px;
+}
+.clogo {
+    
+ font-size: 25px;
+}
+.jlogo {
+    
+ font-size: 25px;
+}
+.blogo {
+    
+ font-size: 25px;
+}
+.slogo {
+    
+ font-size: 25px;
+}
+.Projects1 {
+    text-align: center;
+    font-weight: 800;
+    padding-top: 30px;
+    color: indianred;
+}
+.card4 {
+    height: 50%;
+    width: 25vw;
+    border: 2px solid white;
+    opacity: 0.7;
+    margin-left: 200px;
+    border-radius: 7px;
+    
+    background-color: white;
+}
+.card5 {
+    height: 50%;
+    width: 25vw;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: white;
+    opacity: 0.7;
+    margin-right: 200px;
+}
+.twitterlogo {
+    color: black;
+    font-size: 25px;
+}
+.signlogo {
+    color: black;
+    font-size: 25px;
+}
+.mainbox2 {
+    display: flex;
+    flex-direction: row;
+    height:80%; 
+    width: 100%;
+   /* border: 1px solid white;*/
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.signpara {
+    color: black;
+}
+.twitterpara {
+    color: black;
+}
+.card4:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 10px white;
+    transition: 0.5s ease;
+}
+.card5:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 10px white;
+    transition: 0.5s ease;
+}
+/*.Projects{
+    background-image: url(colordoodle.png);
+    opacity: 0.8;
+}*/
+
+.Skills {
+    background-image: url(skills.jpeg);
+}
+.signpara{
+    font-weight: 500;
+    font-family:'Gill Sans', sans-serif;
+}
+.techstack{
+    color: black;
+    font-family:'Gill Sans', sans-serif;
+
+}
+.python {
+    color: black;
+}
+footer {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #111;
+}
+.footercontain {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footernav {
+    margin: 30px 0;
+}
+.footernav ul {
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 0.8em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerend{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerend p {
+    color: white;
+}
+.me{
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+ul {
+    list-style: none;
+}

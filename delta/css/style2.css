@@ -1,0 +1,22 @@
+*{
+    font-family: 'Courier New';
+}
+h1{
+    color: #1b74e4;
+    font-size: 100%;
+    font-family: fantasy;
+}
+#search{
+    background-color: black;
+    color: white;
+}
+#login{
+    background-color: aqua;
+}
+#register{
+    background-color: aqua;
+}
+p{
+    line-height: 1cm;
+    font-family: helvetica;
+}

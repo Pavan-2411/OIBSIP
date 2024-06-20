@@ -1,0 +1,44 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 8px;
+    border-radius: 50px;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+h1{
+    display: inline;
+    background-color: hotpink;
+}
+span{
+    display: block;
+    background-color: gray;
+}
+h1{
+    border: 2px solid black;
+}
+#outer1{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    background-color: lightcoral;
+    padding: 500px 500px 500px 500px;
+}
+#inner1{
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+}

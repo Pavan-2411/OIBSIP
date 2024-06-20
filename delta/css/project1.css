@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #24252A;
+}
+a , button{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: lightcoral;
+    text-decoration: none;
+    
+    
+}
+button{
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 50px;
+   padding-left: 2px;
+   padding-right: 2px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+h1{
+    color: limegreen;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: azure;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-right: 10px;
+    color: goldenrod;
+}
+a{
+    margin-left: 20px;
+}
+.login{
+    margin-left: 250px;
+}
